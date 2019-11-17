@@ -1,0 +1,165 @@
+Nuevos caracteres
+{{Variable}}
+valor dentro del html nombre de ts, lo trate como codigo 
+(evento)
+Evento
+[(ngModel)]
+#etiqueta
+ID DE HTML css
+
+ELEMENTOS TYPESCRI´T
+
+"MATERIAL" 
+
++BOOTSTRAP
+Diseños responsivos
+
+INTRODUCCION SCSS----------------------------------------
+Superconjunto de css
+
+Identificadores
+#identificador-elemento{}
+-Elemento unico en el DOM
+Arbol de la Web = DOM registro de todos los elementos
+-El elemento referenciado tomará sus valores
+
+Clases
+-Identificador más usado para la reutilizacion
+-Todo elemento que usemos tendrá sus clases definidas
+.nombre-clase{}
+
+Mas identificador
+p, div 
+p[color=red] === propiedades de los elementos SCSS
+.claseA > -claseB{} Relaciones Padres e Hijos
+
+Orden en cascada
+-A un elemento le iran afectando los CSS segun su "cercanía" al
+elemento por oleadas
+-Las propiedades distintas se acumulan
+-Las propiedades iguales se sobreescriben
+
+"Themes" MATERIAL--------------
+Colores
+Aspecto
+Aparencia
+
+BOOTSTRAP
+Grid system
+-----------------------------------------------------------------------
+-------------------------------------------------------------------
+------------------------------------------------------------------------------
+TYPESCRIpT
+Sintaxis JS
+Orientado a Objectos
+Variables con tipado
+Se compila a JS
+
+impot{se incluye los componentos directoros}
+@component{
+    CONFIGURACION
+    SELECTOR="ETIQUETA PARA CREAR"
+    TEMPLATEURL=
+    STYLE{FIVHERO}
+}
+export class NOmbre componento implements onInit
+{
+    declaracion de varianles
+    title:string
+    Deben declararse junto a su tipo al inicio de la clase
+
+    constructor(){
+PRIMERA FUNCION EN EJECUTARSE
+PROVEE DE LOS SERVICIOS NECESARIOS AL COMPONENTE
+
+    }
+NG onInit{
+    Funcion de ciclo de vida de ANGULAR
+    Se ejecuta al iniciarse el componente en la vista
+
+}
+funcion {
+    puede ser asociada a un evento 
+    PUBLICO Y PRIVADO
+
+}
+
+Objectos
+-Las clases, al ser exportadas a otras, se transforman en objetos JS
+-Mediante interfaces o clases podemos crear nuestros tipos de datos
+para usar en la aplicacion
+-Modelar nuestros objetos tiene muchas ventajas
+
+Arrays
+Tipos de datos iterables
+Contienen listas de objetos
+La base para cualquier transmision de datos
+
+-----------------------------
+----------------------------
+----------------------------
+GIT
+
+Control de versiones
+Almacena todo nuestro proyectos
+Sistema distribuido
+ACTUALIZAR CAMBIOS PERIODICAMENTO
+
+REPOSITORIO
+RAMAS
+
+COMANDOS
+Repositorios
+git init inicia un nuevo proyecto localmente
+git clone conecta con un proveedor de git y descarga el Repositorio
+git remote add origin repositorio git = conecta con un repositorio
+git fetch obtener las ramsa del repositorio
+EsTA OPCION SERA NECESARIA EN NUESTRO PROYECTO AL HABER ESCOGIDO LA OPCION
+DE CREAR REPOSITORIO Y NO INICIARLO 
+
+git checkout rama Nos movemos a una rama ya creada
+git checkout -b rama-nueva Creamos y nos movemos a una nueva rama (nueva copia)
+
+checkout
+Repositorios URL
+---RAMA
+---RAMA
+---RAMA
+git pull rama-orgigen Actualizamos la rama actual con los nuevos
+cambios(actualizar)
+
+Master
+-> RAMA X
+
+RAMA - RAMA #3
+
+gitpush origin rama destino Guardaremos los commits en la rama-destino
+git add Nos permite añadir ficheros al proximo commit
+git commit -m 'texto' El guardado de codigo junto con un comentario descriptivo
+
+Flujo de TRABAJO
+
+CREAR REPOSITORIO
+CREAR RAMA 
+ESCRIBIR codigo
+pull
+commit
+PUSH = Guardar
+
+VUELVE AL ciclo
+CREAR RAMA
+
+
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+PRACTICA GIT
+
+
+
+
+
+
+}
+
+
